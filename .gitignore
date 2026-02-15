@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+attendance-backend/venv/
+attendance-backend/env/
+# FastAPI
+.env
+.env.local
+.env.*.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Node.js / Frontend
+attendance-frontend/node_modules/
+attendance-frontend/dist/
+attendance-frontend/.env.local
+attendance-frontend/.env.*.local
+attendance-frontend/npm-debug.log*
+attendance-frontend/yarn-debug.log*
+attendance-frontend/yarn-error.log*
+attendance-frontend/pnpm-debug.log*
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Runtime files
+*.log
+*.pot
+
+# OS files
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# CI/CD
+.github/workflows/
